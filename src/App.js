@@ -1,10 +1,25 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Button } from 'react-bootstrap';
+import { Glyphicon } from 'react-bootstrap';
 
 class App extends Component {
   render() {
+    const ButtonSocial = () => {
+      return (
+        <div className="row buttons">
+          <div className="col-xs-6">
+            <Button bsStyle="primary"><i className="fa fa-facebook icon" aria-hidden="true"></i>Facebook</Button>
+          </div>
+          <div className="col-xs-6">
+            <Button bsStyle="info"><i className="fa fa-twitter icon" aria-hidden="true"></i>witter</Button>
+          </div>
+        </div>
+      )
+    }
     return (
+
       <body>
         <div className="container">
           <div className="row main">
@@ -122,6 +137,7 @@ class App extends Component {
                 <div className="login-register">
                   <a href="index.php">Login</a>
                 </div>
+                <ButtonSocial />
               </form>
             </div>
           </div>

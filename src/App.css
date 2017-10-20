@@ -70,3 +70,27 @@ margin-top: 5px;
 font-size: 11px;
 text-align: center;
 }
+.icon{
+  margin-right: 18%;
+  /* border:2px solid #C9D9E0; */
+}
+.btn-info {
+  width: 100%;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-primary {
+  width: 100%;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+/* .buttons {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #e1e1e2;
+  border-top: 1px solid #c2cfd6;
+} */
+
+
