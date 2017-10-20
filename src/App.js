@@ -52,7 +52,6 @@ const Form = () =>
 class App extends Component {
   render() {
     return (
-      <body>
         <div className="container">
           <div className="row main">
             <div className="main-login main-center">
@@ -61,8 +60,6 @@ class App extends Component {
           </div>
         </div>
 
-        <script type="text/javascript" src="assets/js/bootstrap.js" />
-      </body>
     );
   }
 }
