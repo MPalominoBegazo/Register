@@ -2,11 +2,21 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-
-const Form = () =>
-{
-  return(
+const Header = () => {
+  return (
+    <div >
+      <div className=" text-center">
+        <h1 className="title">Register</h1>
+        <p>Create your account</p>
+        <hr />
+      </div>
+    </div>
+  );
+};
+const Form = () => {
+  return (
     <form className="form-horizontal" method="post" action="#">
+      <Header/>
       <div className="form-group">
         <label htmlFor="name" className="cols-sm-2 control-label">
           Your Name
@@ -123,12 +133,6 @@ class App extends Component {
       <body>
         <div className="container">
           <div className="row main">
-            <div className="panel-heading">
-              <div className="panel-title text-center">
-                <h1 className="title">Company Name</h1>
-                <hr />
-              </div>
-            </div>
             <div className="main-login main-center">
               <Form />
             </div>
